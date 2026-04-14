@@ -24,7 +24,7 @@ const Parent=()=>{
   }
   return(
     <div>
-      <Tooltip text={handleTooltip1} children={handleTooltip2} removeText={handleTooltip1_1} removeChildren={handleTooltip2_1}/>
+      <Tooltip fun1={handleTooltip1} fun2={handleTooltip2} fun3={handleTooltip1_1} fun4={handleTooltip2_1} text={text} children={children}/>
     </div>
   )
 }
