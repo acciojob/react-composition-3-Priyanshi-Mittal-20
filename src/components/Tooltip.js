@@ -9,7 +9,7 @@ const Tooltip=({fun1,fun2,fun3,fun4,text,children})=>{
     <div>
       <h2 className="tooltip">
         <span
-          onMouseOver={() => setShow1(true)}
+          onMouseEnter={() => setShow1(true)}
           onMouseLeave={() => setShow1(false)}
         >
           Hover over me
@@ -18,7 +18,7 @@ const Tooltip=({fun1,fun2,fun3,fun4,text,children})=>{
       <hr/><br/>
       <p className="tooltip">
         <span
-          onMouseOver={() => setShow2(true)}
+          onMouseEnter={() => setShow2(true)}
           onMouseLeave={() => setShow2(false)}
         >
           Hover over me to see another tooltip
